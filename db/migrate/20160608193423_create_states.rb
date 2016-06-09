@@ -1,7 +1,7 @@
 class CreateStates < ActiveRecord::Migration
   def change
     create_table :states do |t|
-      t.name :
+      t.string :name
 
       t.timestamps null: false
     end

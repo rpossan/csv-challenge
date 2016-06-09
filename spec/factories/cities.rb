@@ -1,5 +1,6 @@
 FactoryGirl.define do
-  factory :state do
+  factory :city do
     name "MyString"
+    state ""
   end
 end

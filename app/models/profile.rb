@@ -1,3 +1,7 @@
 class Profile < ActiveRecord::Base
 	belongs_to :city
+	
+	def full_name
+		"#{first_name} #{last_name}"	
+	end
 end

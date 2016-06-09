@@ -6,8 +6,9 @@ namespace :csvloader do
   	loader.load
   end
 
-  desc "TODO"
+  desc "Purge all records from database from Profile, City and State"
   task purge: :environment do
+  	ProfileLoader.purge
   end
 
   desc "TODO"
